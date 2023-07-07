@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 
 
-public class LoginJava{
+public class LoginRegistrationJava{
     String user;
     String password;
     String firstName;
@@ -89,8 +89,9 @@ public class LoginJava{
         System.out.print("Enter Your Last Name:");
         String lastName = sc.nextLine();
         sc.close();
-        Login user1 = new Login();
+        LoginRegistrationJava user1 = new LoginRegistrationJava();
         user1.registerUser(firstName,lastName,user,password);
     }
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////end of file////////////////////////////////////////////////////////////////////////////////

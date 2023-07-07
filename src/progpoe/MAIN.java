@@ -11,7 +11,7 @@ import java.util.Objects;
 import java.util.Scanner;
 import java.util.regex.*;
 
-public class PROGPOE{
+public class MAIN{
 
 
 public static int totalDuration;
